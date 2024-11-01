@@ -9,12 +9,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     // All your normal JS code goes in here
     $(".rating").rating('disable');
+    maxRating: 5
 });
 
-$('#dropdown-id').dropdown('setting', 'onChange', function(){
 
-});
-
-function sortByType(){
-
-}

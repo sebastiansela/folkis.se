@@ -24,7 +24,7 @@
     <nav>
         <div>
             <div class="ui selection dropdown">
-                <input type="hidden" name="gender">
+                <input type="hidden" name="typesOfFolkis">
                 <i class="dropdown icon"></i>
                 <div class="default text">Sortera</div>
                 <div class="menu">
@@ -37,22 +37,40 @@
     </nav>
     <main>
         <p>Sidan för dig som vill hitta den bästa folkisen!</p>
+        <div class="beerContainer">
         <div class="beerCards">
-            <div class="ui card" data-value="2">
+            <div class="ui card">
                 <div class="image">
-                  <img src="/bilder/gränges.jpg">
+                  <img src="/bilder/gränges.jpg" >
                 </div>
                 <div class="content">
-                  <a class="header">Gränges 2,1%</a>
+                  <p class="header">Gränges 2,1%</p>
                   <div class="description">
                     En förvånansvärt god öl för att endast vara en lättis.
                   </div>
                 </div>
                 <div class="extra content">
-                    <div class="ui star rating" data-rating="4"></div>
+                    <div class="ui star rating" data-rating="4" data-max-rating="5"></div>
                 </div>
               </div>
-              
+        </div>
+        <div class="beerCards">
+          <div class="ui card">
+            <div class="image">
+              <img src="/bilder/staro.png">
+            </div>
+            <div class="content">
+              <p class="header">Staropramen 3.5%</p>
+              <div class="description">
+                Smakrik folkis med karaktär av en starköl. 
+              </div>
+            </div>
+            <div class="extra content">
+                <div class="ui star rating" data-rating="4" data-max-rating="5"></div>
+            </div>
+          </div>
+          
+        </div>
         </div>
     </main>
     <footer>

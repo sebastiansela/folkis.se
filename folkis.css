@@ -22,15 +22,47 @@ main {
     margin-bottom: 20px;
 }
 
+
+.beerContainer{
+    margin: 20px;
+    display: flex;
+    max-height: 400px;
+    height: auto;
+    
+}
+.beerCards{
+    margin: 20px;
+    object-fit: contain;
+}
+
+img{
+    background-size:contain;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+
+}
+
+.ui.card>.image {
+    display: inline-block;
+    height: 300px;
+    width: 290px;
+   
+  }
+
+#image{
+    height: 424px;
+
+}
+
+
 #cardDescription{
     margin: 20px;
     align-items: center;
 }
 
-.beerCards{
-    margin: 20px;
-    disp
-}
+
 
 footer {
     text-align: center;
@@ -42,12 +74,6 @@ footer {
     height: 2.5rem;            
   }
 
-#cardsPositioning{
-    display: flex;
-    justify-content: center;
-     align-items: center;
-    text-align: center;
-}
 
 #cardDiv{
     padding:auto;
