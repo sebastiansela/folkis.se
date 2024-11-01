@@ -26,7 +26,7 @@ main {
 .beerContainer{
     margin: 20px;
     display: flex;
-    max-height: 400px;
+    max-height: 600px;
     height: auto;
     
 }
@@ -44,10 +44,26 @@ img{
 
 }
 
+.ui.card{
+    height: 434px;
+    width: 290px;
+    overflow: hidden; /* Hide any part of the image that overflows the container */
+    position: relative; /* Required for positioning the image correctly */
+}
+
+.ui.card img{
+    max-width: 100%; /* Allow the image to scale down to fit the container's width */
+    max-height: 100%; /* Allow the image to scale down to fit the container's height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Scale the image to fit while maintaining aspect ratio */
+}
+
 .ui.card>.image {
     display: inline-block;
     height: 300px;
     width: 290px;
+    object-fit: contain;
    
   }
 
