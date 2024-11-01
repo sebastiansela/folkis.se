@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folkis.se</title>
+    <link rel="stylesheet" href="folkis.css">
+    <meta charset="utf-8" />
+    <title>Semantic UI CDN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <script src="folkis.js"></script>
+
+    
+</head>
+<body>
+
+    <header>
+    <div id="headerDiv">
+        <h1>Välkommen till Folkis.se 🍻!</h1>
+    </div>
+    </header>
+    <nav>
+        <div>
+            <div class="ui selection dropdown">
+                <input type="hidden" name="gender">
+                <i class="dropdown icon"></i>
+                <div class="default text">Sortera</div>
+                <div class="menu">
+                  <div class="item" data-value="0">Allt</div>
+                  <div class="item" data-value="1">Folkisar</div>
+                  <div class="item" data-value="2">Lättisar</div>
+                </div>
+              </div>
+        </div>
+    </nav>
+    <main>
+        <p>Sidan för dig som vill hitta den bästa folkisen!</p>
+        <div class="beerCards">
+            <div class="ui card" data-value="2">
+                <div class="image">
+                  <img src="/bilder/gränges.jpg">
+                </div>
+                <div class="content">
+                  <a class="header">Gränges 2,1%</a>
+                  <div class="description">
+                    En förvånansvärt god öl för att endast vara en lättis.
+                  </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui star rating" data-rating="4"></div>
+                </div>
+              </div>
+              
+        </div>
+    </main>
+    <footer>
+        <div class="footerDiv">
+            <p>Made by Sebastian Sela 2024</p>
+        </div>
+    </footer>
+    
+
+
+</body>
+</html>
