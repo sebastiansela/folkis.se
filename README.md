@@ -1,0 +1,2 @@
+# folkis.se
+Folkis rating
